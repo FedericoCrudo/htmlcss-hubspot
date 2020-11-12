@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+header{
+    height: 1300px;
+}
+header a{
+    text-decoration: none;
+    color:black
+}
+.clear-fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+.header-nav{
+    height: 130px;
+    width: 100%;
+    background-color: rgba(173, 228, 245, 0.678);
+    line-height: 120px;
+}
+
+.nav-top-left .fas.fa-angle-down{
+    padding-right: 20px;
+    border-right: 2px solid gray;
+}
+.nav-top-left, .nav-top-right{
+    font-size: 25px;
+}
+.header-nav-top{
+    height: 100%;
+    background-color: orangered;
+}
+ul{
+    list-style: none;
+}
+.header-nav li{
+    display: inline-block;
+}
+.nav-top-left  a{
+     text-decoration: none;
+     color:rgb(43, 34, 34);
+     padding-left:20px;
+}
+.header-nav-bottom{
+    height: 200px;
+}
+.nav-top-right a{
+    margin-left: 20px;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 5px;
+    padding:  10px;
+    color: white;
+}
+.btn-orange{
+    background-color: rgb(245, 91, 45);
+    padding:11px;
+}
+.btn-total-orange{
+    color: orangered;
+    border: 1px solid orangered;
+}
+.btn-large{
+    padding: 30px 70px;
+    font-size: 30px;
+}
+.header-nav.bottom{
+    border-top: 1px solid black;
+    font-size: 25px;
+    background-color: white;
+}
+
+.menu-right li{
+    margin-left:30px;
+}
+.header-nav-bottom >.logo{
+    margin-top: 5px;
+}
+.jumbotron{
+    height: 750px;
+    background-color: #FFF2EE;
+    background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
+    background-position: 100% 252%;
+}
+.bordo{
+    height: 80px;
+   border: 3px solid #33475B;
+   border-right:0;
+   border-left:0;
+   background-color: #AFEBE4;
+}
+.jumbotron-section{
+    width: 700px;
+    margin-top: 100px;
+   
+}
+.jumbotron-section h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+.jumbotron-section p{
+    
+    margin:20px;
+    color: rgb(53, 49, 47);
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom:50px ;
+}
+.jumbotron-section h3{
+    padding-top:80px ;
+    color: rgb(53, 49, 47);
+}
