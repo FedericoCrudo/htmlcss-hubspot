@@ -293,7 +293,7 @@ main{
     margin-top: 100px;
     width: 100%;
     background-color: #00B5AC;
-    height: 1000px;
+   
 }
 .banner .header-banner{
     text-align: center;
@@ -309,3 +309,49 @@ main{
     font-size: 40px;
     color: white;
 }
+.header-bottom{
+    height: 1200px;
+    margin-top: 3%;   
+}
+.infomation-section{
+    position: relative;
+    
+    border-bottom:1px solid white ;
+}
+.infomation-section div{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    border-right:1px solid white ;
+}
+.infomation-section div img{
+    margin: 5% ;
+    padding-top: 10%;
+    width: 20%;
+}
+.infomation-section div span{
+    display: block;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 5%;
+}
+.infomation-section div span:nth-child(2){
+    font-weight: bolder;
+}
+.infomation-section div span:nth-child(3){
+    font-size: 20px;
+    padding-bottom: 11%;
+}
+.infomation-section div span:nth-child(2)::after {
+    content: "+";
+    padding-left: 1%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.infomation-section div:nth-child(4){
+    border-right: 0;
+}
+.noborder-bottom{
+    border-bottom: 0;
+}
+
