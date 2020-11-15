@@ -115,19 +115,20 @@ ul{
     width: 750px;
     margin-top: 90px;
 }
-.jumbotron-section h1{
+.jumbotron-section h1, .information-left h1{
     font-size: 70px;
     line-height: 70px;
+    padding-bottom: 40px;
 }
-.jumbotron-section p{
+.jumbotron-section p, .information-left p{
     margin:20px;
     color: rgb(53, 49, 47);
     font-size: 25px;
     line-height: 40px;
-    padding-bottom:50px;
+    padding-bottom:80px;
 }
-.jumbotron-section h3{
-    padding-top:80px ;
+.jumbotron-section h3, .information-left h3{
+    padding-top:120px;
     color: rgb(53, 49, 47);
 }
 main{
@@ -218,7 +219,6 @@ main{
     padding-right: 30px;
 }
 .sezione-tre-blocchi{
-    height: 1200px;
     margin-top: 120px ;
 }
 .col.center{
@@ -293,6 +293,7 @@ main{
     margin-top: 100px;
     width: 100%;
     background-color: #00B5AC;
+    padding-bottom: 5%;
    
 }
 .banner .header-banner{
@@ -310,12 +311,10 @@ main{
     color: white;
 }
 .header-bottom{
-    height: 1200px;
     margin-top: 3%;   
 }
 .infomation-section{
     position: relative;
-    
     border-bottom:1px solid white ;
 }
 .infomation-section div{
@@ -326,21 +325,20 @@ main{
 }
 .infomation-section div img{
     margin: 5% ;
-    padding-top: 10%;
+    
     width: 20%;
 }
 .infomation-section div span{
     display: block;
     font-size: 50px;
     color: white;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 .infomation-section div span:nth-child(2){
     font-weight: bolder;
 }
 .infomation-section div span:nth-child(3){
     font-size: 20px;
-    padding-bottom: 11%;
 }
 .infomation-section div span:nth-child(2)::after {
     content: "+";
@@ -351,7 +349,66 @@ main{
 .infomation-section div:nth-child(4){
     border-right: 0;
 }
-.noborder-bottom{
+.no-border-bottom{
     border-bottom: 0;
 }
-
+.section-home-information{
+    background-color: white;
+}
+.home-information{
+    width: 100%;
+    background-image: url("../img/woman.webp");
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
+    background-size: 400px;
+}
+.home-header{
+    width: 100%;
+    display: inline-block;
+    padding-top: 2%;
+}
+.home-header .left {
+    padding-top: 2%;
+    padding-left: 2%;
+    text-align: center;
+}
+.home-header .left{
+    width: 20%;
+    margin-left: 3%;
+}
+.home-header > div h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.home-header > div p{
+    line-height: 45px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.home-header .right{
+    float: right;
+    width: 70%;
+    margin-top:1% ;
+}
+.right .home-img{
+   margin-left: 30% ;
+   
+}
+.right .home-img img{
+    width: 22%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top:5% ;
+}
+.home-main{
+    width: 100%;
+    padding-bottom: 10%;
+}
+.information-left{
+    width: 50%;
+    margin-top:5% ;
+}
+footer{
+    height: 400px;
+    background-color: #2D3E50;
+}
