@@ -508,6 +508,7 @@ footer{
 }
 .fas.fa-times{
  color:grey;
+ font-size: 20px;
 }
 .textbox p{
     font-size: 15px;
@@ -516,8 +517,9 @@ footer{
 }
 .textbox i{
     position: absolute;
-   top:0;
-   right: 0;
+  
+    top:10%;
+ right: 5%;
 }
 .textbox img{
     width: 50px;
