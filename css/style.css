@@ -434,9 +434,14 @@ footer{
     right:3%;
     bottom: 3%;
     font-size: 50px;
-    color: rgb(61, 51, 51);
-     
-    
+    color:white; 
+
+}
+.far.fa-comment-alt{
+
+    background-color:#2D3E50;
+    padding:20px;
+    border-radius: 50%; 
 }
 .block-foooter{
     width: 22%;
@@ -499,7 +504,7 @@ footer{
      width: 15%;
     position: fixed;
     right: 3%;
-    bottom: 12%;
+    bottom: 16%;
     background-color:white;
     box-shadow: 0 0 10px rgba(49, 49, 49, 0.644);
     padding:15px;
@@ -517,9 +522,8 @@ footer{
 }
 .textbox i{
     position: absolute;
-  
     top:10%;
- right: 5%;
+    right: 5%;
 }
 .textbox img{
     width: 50px;
