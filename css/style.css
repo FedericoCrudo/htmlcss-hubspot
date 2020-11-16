@@ -28,7 +28,7 @@ header a{
 .header-nav{
     width: 80em;
     background-color:white;
-    line-height: 100px;
+    line-height: 85px;
 }
 .fixed{
     position: fixed;   
@@ -50,7 +50,7 @@ p{
     border-right: 2px solid gray;
 }
 .nav-top-left, .nav-top-right{
-    font-size: 25px;
+    font-size: 20px;
 }
 ul{
     list-style: none;
@@ -86,11 +86,11 @@ ul{
     color:black;
 }
 .btn-large{
-    padding: 40px 50px;
-    font-size: 30px;
+    padding: 35px 50px;
+    font-size: 20px;
 }
 .header-nav.bottom{
-    font-size: 25px;
+    font-size: 20px;
     background-color: white;
     line-height: 100px;
 }
@@ -101,6 +101,7 @@ ul{
     margin-top:9px;
 }
 .jumbotron{
+    width: 100%;
     height: 750px;
     background-color: #FFF2EE;
     background-image: url("../img/jumbotron.png");
@@ -120,14 +121,14 @@ ul{
     margin-top: 90px;
 }
 .jumbotron-section h1, .information-left h1{
-    font-size: 70px;
+    font-size: 65px;
     line-height: 70px;
     padding-bottom: 40px;
 }
 .jumbotron-section p, .information-left p{
     margin:20px;
     color: rgb(53, 49, 47);
-    font-size: 25px;
+    font-size: 23px;
     line-height: 40px;
     padding-bottom:80px;
 }
@@ -147,14 +148,17 @@ main{
     padding-top: 40px;
 }
 .block-1 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .block-1 p{
-    font-size: 25px;
+    font-size: 23px;
     padding-top:60px; 
 }
+.block-1 img{
+    width: 30%;
+}
 .block-2{
-    height: 550px;
+    height: 350px;
     width: 100%;
     box-shadow: 0 0 10px rgba(49, 49, 49, 0.644);
     border-radius: 5px;
@@ -171,10 +175,10 @@ main{
 }
 .wrapper a{
     font-size: 25px;
-    display: block;
+    display: inline-block;
 }
 .block-left img{
-    width: 100%;
+    width: 80%;
     display: block;
     padding-bottom:80px;
 }
@@ -186,29 +190,29 @@ main{
 .block-2-right{
     width: 75%;
     height: 100%;
-    padding: 100px 120px 100px 0px;
+    padding:50px 30px ;
     text-align: left;
-    line-height: 50px;
+    
 }
 
 .block-2-right > h1{
-    font-size: 40px;
-    padding-bottom: 80px;
+    font-size: 35px;
+    padding-bottom: 50px;
 }
 .block-2-right > p{
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom:30px;
 }
 .block-2-right > h2{
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom:40px;
 }
 .block-2-right > h2::after{
     content: "";
     float: right;
-    width: 65%;
-    margin-top: 25px;
+    width: 55%;
+    margin-top: 15px;
     height: 5px;
     background-color: grey;
 }
@@ -219,7 +223,7 @@ main{
     color: green;
 }
 .block-2-right li{
-    font-size: 25px;
+    font-size: 20px;
     padding-right: 30px;
 }
 .sezione-tre-blocchi{
@@ -251,11 +255,11 @@ main{
 }
 .col .items-middle p{
     color: rgb(53, 49, 47);
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom:20% ;
 }
 .col .items-middle h1{
-    font-size: 40px;
+    font-size: 30px;
     padding-bottom: 40px;
 }
 .col .items-middle::after{
@@ -271,7 +275,7 @@ main{
 }
 .col .items-bottom span{
     color: rgb(46, 44, 44);
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -282,14 +286,14 @@ main{
     padding-right: 20px;
 }
 .col .items-bottom ul li{
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
     display: block;
     padding-bottom: 5px;
     color: rgb(53, 49, 47);
 }
 .col .items-bottom a{
-    font-size: 30px;
+    font-size: 20px;
     margin-top:80px;
    display: inline-block;
 }
@@ -303,15 +307,15 @@ main{
 .banner .header-banner{
     text-align: center;
     padding-top: 100px;
-    line-height: 90px;
+    line-height: 50px;
 }
 .banner .header-banner h1{
-    font-size: 80px;
+    font-size: 50px;
     color:white;
     padding-bottom: 50px;
 }
 .banner .header-banner p{
-    font-size: 40px;
+    font-size: 20px;
     color: white;
 }
 .header-bottom{
@@ -329,7 +333,7 @@ main{
 }
 .infomation-section div img{
     margin: 5% ;  
-    width: 20%;
+    width: 15%;
 }
 .infomation-section div span{
     display: block;
@@ -366,7 +370,7 @@ main{
     background-image: url("../img/woman.webp");
     background-repeat: no-repeat;
     background-position: 100% 70%;
-    background-size: 500px;
+    background-size: 300px;
 }
 .home-header{
     width: 100%;
@@ -383,13 +387,13 @@ main{
     margin-left: 3%;
 }
 .home-header > div h1{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
 }
 .home-header > div p{
     line-height: 45px;
     padding-top: 50px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .home-header .right{
     float: right;
@@ -414,6 +418,13 @@ main{
     width: 50%;
     margin-top:5% ;
 }
+.information-left h1{
+    font-size: 45px;   
+}
+.information-left p{
+    font-size: 25px;   
+}
+
 footer{
     height: 1100px;
     background-color: #2D3E50;
@@ -422,7 +433,7 @@ footer{
     position:fixed;
     right:3%;
     bottom: 3%;
-    font-size: 80px;
+    font-size: 40px;
    color: rgb(228, 228, 74);
 }
 .block-foooter{
@@ -433,14 +444,14 @@ footer{
 .block-foooter h2{
     margin-top: 15% ;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
 }
 .block-footer ul{
     margin-top: 15%;
 }
 .block-foooter li{
     padding-top: 10%;
-    font-size: 30px;
+    font-size: 20px;
     display: block;
 }
 .block-foooter a{
@@ -449,7 +460,7 @@ footer{
     color: rgb(250, 219, 219);
 }
 .fab {
-    font-size: 35px;
+    font-size: 20px;
     padding-right: 30px;
     color: white;
     cursor: pointer;
@@ -464,7 +475,7 @@ footer{
     padding-bottom:2% ;
 }
 .language span{
-   font-size:25px;
+   font-size:20px;
    color: rgb(250, 219, 219);
    padding-right: 50px;
 }
@@ -476,7 +487,7 @@ footer{
  width: 25%;
 }
 .header-right span{
-    font-size:30px;
+    font-size:20px;
     color:  rgb(250, 219, 219);
 }
 .header-right > span{
