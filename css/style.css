@@ -324,8 +324,7 @@ main{
     border-right:1px solid white ;
 }
 .infomation-section div img{
-    margin: 5% ;
-    
+    margin: 5% ;  
     width: 20%;
 }
 .infomation-section div span{
@@ -402,13 +401,43 @@ main{
 }
 .home-main{
     width: 100%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 .information-left{
     width: 50%;
     margin-top:5% ;
 }
 footer{
-    height: 400px;
+    height: 1300px;
     background-color: #2D3E50;
+}
+.chat{
+    position:fixed;
+    right:3%;
+    bottom: 3%;
+    font-size: 60px;
+    color:yellow;
+}
+.block-foooter{
+    width: 22%;
+    display: inline-block;
+    margin-right: 2% ;
+}
+.block-foooter h2{
+    margin-top: 10% ;
+    color: white;
+    font-size: 30px;
+}
+.block-footer ul{
+    margin-top: 15%;
+}
+.block-foooter li{
+    padding-top: 10%;
+    font-size: 30px;
+    display: block;
+}
+.block-foooter a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
