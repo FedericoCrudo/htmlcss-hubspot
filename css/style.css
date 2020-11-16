@@ -69,7 +69,7 @@ ul{
 .btn{
     text-decoration: none;
     border-radius: 5px;
-    padding:  10px;
+    padding:  15px;
     color: white;
     
 }
@@ -80,6 +80,10 @@ ul{
 .btn-total-orange{
     color: orangered;
     border: 1px solid orangered;
+}
+.btn-white{
+    background-color: rgb(168, 163, 163);
+    color:black;
 }
 .btn-large{
     padding: 40px 50px;
@@ -354,12 +358,15 @@ main{
 .section-home-information{
     background-color: white;
 }
+.home-main{
+    margin-top:10% ;
+}
 .home-information{
     width: 100%;
     background-image: url("../img/woman.webp");
     background-repeat: no-repeat;
     background-position: 100% 70%;
-    background-size: 400px;
+    background-size: 500px;
 }
 .home-header{
     width: 100%;
@@ -408,25 +415,25 @@ main{
     margin-top:5% ;
 }
 footer{
-    height: 1300px;
+    height: 1100px;
     background-color: #2D3E50;
 }
 .chat{
     position:fixed;
     right:3%;
     bottom: 3%;
-    font-size: 60px;
-    color:yellow;
+    font-size: 80px;
+   color: rgb(228, 228, 74);
 }
 .block-foooter{
     width: 22%;
-    display: inline-block;
+    float: left;
     margin-right: 2% ;
 }
 .block-foooter h2{
-    margin-top: 10% ;
+    margin-top: 15% ;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 .block-footer ul{
     margin-top: 15%;
@@ -439,5 +446,39 @@ footer{
 .block-foooter a{
     cursor: pointer;
     text-decoration: none;
+    color: rgb(250, 219, 219);
+}
+.fab {
+    font-size: 35px;
+    padding-right: 30px;
     color: white;
+    cursor: pointer;
+}
+.fab:hover {
+    color: red;
+}
+.language{
+    margin-top:10% ;
+    text-align: center;
+    border-bottom: 2px solid  rgb(250, 219, 219) ;
+    padding-bottom:2% ;
+}
+.language span{
+   font-size:25px;
+   color: rgb(250, 219, 219);
+   padding-right: 50px;
+}
+.header-left h3{
+    color: rgb(250, 219, 219);
+    padding-top: 2%;
+}
+.header-right {
+ width: 25%;
+}
+.header-right span{
+    font-size:30px;
+    color:  rgb(250, 219, 219);
+}
+.header-right > span{
+    padding-left:10% ;
 }
