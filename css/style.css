@@ -433,8 +433,10 @@ footer{
     position:fixed;
     right:3%;
     bottom: 3%;
-    font-size: 40px;
-   color: rgb(228, 228, 74);
+    font-size: 50px;
+    color: rgb(61, 51, 51);
+     
+    
 }
 .block-foooter{
     width: 22%;
@@ -492,4 +494,34 @@ footer{
 }
 .header-right > span{
     padding-left:10% ;
+}
+.textbox{
+     width: 15%;
+    position: fixed;
+    right: 3%;
+    bottom: 12%;
+    background-color:white;
+    box-shadow: 0 0 10px rgba(49, 49, 49, 0.644);
+    padding:15px;
+    border-radius: 5px;
+   
+}
+.fas.fa-times{
+ color:grey;
+}
+.textbox p{
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.textbox i{
+    position: absolute;
+   top:0;
+   right: 0;
+}
+.textbox img{
+    width: 50px;
+    position: absolute;
+    top:-20%;
+    left: 40%;
 }
