@@ -509,7 +509,7 @@ footer{
     box-shadow: 0 0 10px rgba(49, 49, 49, 0.644);
     padding:15px;
     border-radius: 5px;
-   
+    display: none;
 }
 .fas.fa-times{
  color:grey;
@@ -530,4 +530,7 @@ footer{
     position: absolute;
     top:-20%;
     left: 40%;
+}
+.chat i:hover + .textbox{
+    display: block;
 }
